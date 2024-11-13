@@ -1,1 +1,1 @@
-[XCaelrad](https://xcaelrad.github.io/rsschool-cv/cv)
+https://xcaelrad.github.io/rsschool-cv/
