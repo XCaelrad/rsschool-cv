@@ -1,0 +1,258 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  background-color: #4e227ac9;
+}
+
+h1 {
+  font-size: 30px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  word-spacing: 0.2em;
+  color: #4e227ac9;
+}
+
+h2 {
+  font-size: 25px;
+  text-transform: uppercase;
+  padding: 30px 0 5px 0px;
+  border-bottom: 1px solid hsl(30, 3%, 56%);
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  letter-spacing: 0.01em;
+  color: #9b9b9b;
+  padding-top: 5px;
+}
+
+p {
+  line-height: 25px;
+}
+
+ul {
+  padding: 0px 0px 0px 40px;
+}
+
+li {
+  text-align: justify;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.myself {
+  max-width: 150px;
+  max-height: 150px;
+  border-radius: 50%;
+}
+
+.container {
+  max-width: 1180px;
+  background-color: #fff;
+  box-shadow: 0 0 100px rgba(16, 1, 31, 0.8);
+  margin: 40px;
+}
+
+.two-coloumn {
+  display: flex;
+}
+
+main {
+  padding: 40px;
+  width: 800px;
+  padding-top: 25px;
+}
+
+/* Left columns */
+
+.aside {
+  padding: 0px 30px 30px 30px;
+  color: #fff;
+  background-color: #333;
+  width: 30%;
+}
+
+.web,
+.mail,
+.location {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  margin-top: 20px;
+  gap: 10px;
+}
+
+.icon-web,
+.icon-mail,
+.icon-local {
+  width: 25px;
+  height: 25px;
+}
+
+.web-link,
+.mail-link,
+.local-link {
+  font-size: 1em;
+  color: hwb(0 83% 17%);
+  text-decoration: none;
+  padding-bottom: 5px;
+}
+
+.web-link:hover,
+.mail-link:hover,
+.local-link:hover {
+  text-decoration: underline;
+}
+
+.icon {
+  display: flex;
+  gap: 16px;
+  padding-top: 15px;
+}
+
+.lang {
+  padding: 15px;
+}
+
+.language {
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 0px 0px 5px 0px;
+}
+
+.comment {
+  color: #9b9b9b;
+  padding-bottom: 5px;
+}
+
+pre {
+  margin-top: 15px;
+  border: 1px solid rgba(46, 45, 45, 0.582);
+  background: #2521216b;
+  border-radius: 15px;
+  padding: 10px 30px;
+}
+
+code {
+  color: rgb(46, 189, 46);
+  margin: 0;
+  padding: 0;
+}
+
+/* right columns */
+
+.head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.subtitle {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: #4e227ac9;
+  padding: 15px 0px 10px 0px;
+  border-bottom: 1px solid hsl(30, 3%, 56%, 0.3);
+}
+
+.info {
+  padding-top: 15px;
+  line-height: 25px;
+  text-align: justify;
+}
+
+.experience {
+  position: relative;
+}
+
+.experience-item {
+  position: relative;
+}
+
+.badge-one {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 0px;
+  top: 65px;
+  gap: 10px;
+}
+
+.badge-july {
+  position: absolute;
+  right: 0px;
+  top: 10px;
+}
+
+.badge,
+.badge-july {
+  font-size: 12px;
+  font-weight: bold;
+  border: 1px solid rgba(211, 211, 211, 0.582);
+  border-radius: 15px;
+  color: rgba(66, 66, 66, 0.753);
+  padding: 5px 10px;
+}
+
+.position {
+  padding-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #4e227ac9;
+}
+
+.learn {
+  padding: 5px 0px 5px 20px;
+  font-style: italic;
+  font-weight: bold;
+  color: #4e227a8c;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 20px 15px 20px;
+  font-size: 8px;
+  color: #fff;
+  background-color: #301649c9;
+}
+
+.github {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.visit {
+  font-size: 10px;
+  color: hwb(0 83% 17%);
+  text-decoration: none;
+}
+
+.visit:hover {
+  text-decoration: underline;
+}
+
+.years {
+  display: flex;
+  align-items: end;
+  font-size: 15px;
+}
