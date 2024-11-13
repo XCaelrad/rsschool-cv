@@ -120,6 +120,21 @@ main {
   padding-top: 15px;
 }
 
+.lang {
+  padding: 15px;
+}
+
+.language {
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 0px 0px 5px 0px;
+}
+
+.comment {
+  color: #9b9b9b;
+  padding-bottom: 5px;
+}
+
 /* right columns */
 
 .head {
