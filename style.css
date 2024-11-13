@@ -135,6 +135,20 @@ main {
   padding-bottom: 5px;
 }
 
+pre {
+  margin-top: 15px;
+  border: 1px solid rgba(46, 45, 45, 0.582);
+  background: #2521216b;
+  border-radius: 15px;
+  padding: 10px 30px;
+}
+
+code {
+  color: rgb(46, 189, 46);
+  margin: 0;
+  padding: 0;
+}
+
 /* right columns */
 
 .head {
@@ -181,7 +195,7 @@ main {
 .badge-july {
   position: absolute;
   right: 0px;
-  top: 0px;
+  top: 10px;
 }
 
 .badge,
@@ -190,18 +204,20 @@ main {
   font-weight: bold;
   border: 1px solid rgba(211, 211, 211, 0.582);
   border-radius: 15px;
-  color: rgb(66, 66, 66);
+  color: rgba(66, 66, 66, 0.753);
   padding: 5px 10px;
 }
 
 .position {
+  padding-top: 10px;
   font-size: 18px;
   font-weight: bold;
-  color: thistle;
+  color: #4e227ac9;
 }
 
 .learn {
+  padding: 5px 0px 5px 20px;
   font-style: italic;
   font-weight: bold;
-  color: hotpink;
+  color: #4e227a8c;
 }
