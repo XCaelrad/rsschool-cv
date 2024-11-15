@@ -3,3 +3,8 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+main {
+    background-color: #FF4646;
+    border-radius: 20px 20px 0px 0px;
+}
