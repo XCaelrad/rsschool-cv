@@ -1,10 +1,44 @@
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+body {
+    max-width: 1440px;
+}
+
 main {
     background-color: #FF4646;
     border-radius: 20px 20px 0px 0px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 82px 12px 82px;
+    max-width: 1440px;
+    font-family: 'Montserrat';
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.nav-link {
+    display: flex;
+    justify-content: flex-start;
+    gap: 48px;
+    list-style-type: none;
+}
+
+.logo-text {
+    text-decoration: none;
+}
+
+.logo-link {
+    display: flex;
+    align-items: center;
+    gap: 8px;;
 }
