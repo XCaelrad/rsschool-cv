@@ -15,7 +15,64 @@
         <img src="./assets/img/myself-cv.jpg" alt="Myself" class="img">
     </header>
     <main>
-        
+        <div class="about">
+            <h2 class="subtitle">About me</h2>
+            <p class="info">
+            I am an aspiring Frontend developer. My journey in it started with
+            learning UX/UI design, but during college days in a computer science
+            class the teacher introduced us to website design. Not design, but
+            layout. I remember back then we wrote everything in Notepad++. I was
+            fascinated by it, but I continued to study design, even went to
+            university. But at some point I got a course from Stepik "Basics of
+            HTML and CSS" and then my study of Frontend development began. Now I
+            am starting a new course for 3 months from RS SCHOOL
+            "JavaScript/Front-end. Pre-school".
+            </p>
+        </div>
+        <div class="experience">
+            <h2 class="subtitle">Experience</h2>
+            <p class="position">Front-end Developer</p>
+            <div class="badge-one">
+                <span class="badge-front">February 2024 - present</span>
+            </div>
+            <p class="learn">Learning:</p>
+            <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+            </ul>
+        </div>
+        <div class="experience">
+            <p class="position">Fullstack Developer</p>
+            <div class="badge-two">
+                <span class="badge-full">July 2024 - present</span>
+            </div>
+            <p class="learn">Learning:</p>
+            <ul>
+                <li>Server Setting</li>
+                <p>Installing LAMP on a Linux system. Working in remote mode (logging in, using SFTP/SFTPS).</p>
+                <li>Python</li>
+                <li>MySQL</li>
+                <li>CSS3</li>
+                <li>jQuery</li>
+                <li>React</li>
+            </ul>
+        </div>
+        <div class="code-examples">
+            <h2 class="code-title">Code Examples</h2>
+            <pre><code>
+                function isChecked (Q, code) {
+    if (Array.isArray(code)) {
+    	let ret = false;
+        for (let c of code) {
+        	if (isChecked(Q,c)) {ret = true;}
+        }
+        return ret;
+    }
+    else {return (Q.getCheckedCodes().indexOf(code)>-1) ? true : false;}
+}
+            </code></pre>
+        </div>
     </main>
 </body>
 </html>
