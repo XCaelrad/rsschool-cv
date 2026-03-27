@@ -16,10 +16,25 @@ main{
     width: 700px;
 }
 
+img{
+    max-width: 150px;
+    max-height: 150px;
+    border-radius: 50%;
+}
+
 .container {
   display: flex;
   max-width: 1180px;
   background-color: #fff;
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
   margin: 20px;
+}
+
+header {
+    background-color: #f0f0f0;
+    padding: 20px;
+    display: flex;
+    justify-content: right;
+    height: 150px;
+    max-width: 1180px;
 }
