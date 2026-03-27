@@ -1,9 +1,25 @@
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    background-color: #3272227a;
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 20px;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  background-color: #245e167a;
 }
 
+p {
+    line-height: 25px;
+}
+
+main{
+    padding: 40px;
+    width: 700px;
+}
+
+.container {
+  display: flex;
+  max-width: 1180px;
+  background-color: #fff;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
+  margin: 20px;
+}
