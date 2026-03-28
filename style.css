@@ -140,7 +140,8 @@ a {
     border-radius: 0%;
 }
 
-.email {
+.email,
+.pin {
     display: flex;
     align-items: center;
     justify-content: left;
@@ -148,14 +149,21 @@ a {
     gap: 10px;
 }
 
-.email-link {
+.email-link,
+.local-link {
     color: hwb(0 83% 17%);
     text-decoration: none;
     font-size: 1em;
 }
 
-.email-link:hover {
+.email-link:hover,
+.local-link:hover {
     text-decoration: underline;
+}
+
+.text-location {
+    margin: 0px;
+    font-size: 15px;
 }
 
 footer p {
