@@ -11,10 +11,7 @@ p {
     line-height: 25px;
 }
 
-main{
-    padding: 40px;
-    width: 700px;
-}
+
 
 img{
     max-width: 150px;
@@ -24,19 +21,28 @@ img{
 
 .container {
   display: flex;
+  flex-direction: column; /* ← ВАЖНО: теперь header сверху */
   max-width: 1180px;
   background-color: #fff;
   box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
   margin: 20px;
 }
 
-header {
-    background-color: #f0f0f0;
-    padding: 20px;
-    display: flex;
-    justify-content: right;
-    height: 150px;
-    max-width: 1180px;
+/* нижняя часть */
+.content {
+  display: flex;
+}
+
+/* левый блок */
+.bio-container {
+  width: 300px;
+  padding: 20px;
+}
+
+/* правый блок */
+main {
+  padding: 40px;
+  width: 700px;
 }
 
 .name{
