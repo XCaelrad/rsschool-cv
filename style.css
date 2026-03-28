@@ -215,3 +215,17 @@ li {
   text-align: justify;
   line-height: 25px;
 }
+
+pre {
+    background-color: rgba(148, 148, 148, 0.2);
+}
+
+code {
+    color: #333;
+    font-family: monospace;
+}
+
+pre code {
+    padding-left: 20px;
+    display: block;
+}
