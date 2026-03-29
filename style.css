@@ -11,7 +11,7 @@ p {
     line-height: 25px;
 }
 
-img{
+header img{
     max-width: 110px;
     max-height: 110px;
     border-radius: 50%;
@@ -237,4 +237,10 @@ code {
 pre code {
     padding-left: 20px;
     display: block;
+}
+
+.icons-skills {
+    border-radius: 0%;
+    display: flex;
+    gap: 10px;
 }
