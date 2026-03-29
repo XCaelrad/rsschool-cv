@@ -141,7 +141,8 @@ a {
 }
 
 .email,
-.pin {
+.pin,
+.phone {
     display: flex;
     align-items: center;
     justify-content: left;
@@ -150,18 +151,26 @@ a {
 }
 
 .email-link,
-.local-link {
+.local-link,
+.phone-link {
     color: hwb(0 83% 17%);
     text-decoration: none;
     font-size: 1em;
 }
 
 .email-link:hover,
-.local-link:hover {
+.local-link:hover,
+.phone-link:hover {
     text-decoration: underline;
 }
 
-.text-location {
+.icon-phone {
+    border-radius: 0%;
+    width: 30px;
+}
+
+.text-location,
+.text-phone {
     margin: 0px;
     font-size: 15px;
 }
